@@ -1,0 +1,884 @@
+[
+    {
+    "challengeId": 1,
+    "title": "Thermal Efficiency Optimization",
+    "description": "Design an experiment to optimize the thermal efficiency of a given system, exploring principles of thermodynamics.",
+    "startDate": "2023-04-01",
+    "endDate": "2023-04-30",
+    "location": "Thermodynamics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on optimizing thermal efficiency."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced thermodynamics toolkit",
+        "secondPlace": "Thermal energy conversion handbook",
+        "thirdPlace": "Thermodynamics poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/pKcV7hs/ph1.jpg"
+    },
+    {
+    "challengeId": 2,
+    "title": "Charge Interaction Exploration",
+    "description": "Conduct experiments to explore the interaction between charged objects, delving into the principles of electrostatics.",
+    "startDate": "2023-05-01",
+    "endDate": "2023-05-31",
+    "location": "Electrostatics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the interaction of charged objects."
+    ],
+    "prizes": {
+        "firstPlace": "Electrostatics experimentation kit",
+        "secondPlace": "Electrostatics reference book",
+        "thirdPlace": "Static electricity demonstration set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/VmrZ1tV/ph2.png"
+    },
+    {
+    "challengeId": 3,
+    "title": "Circuit Innovation Challenge",
+    "description": "Design and build innovative circuits showcasing principles of current electricity.",
+    "startDate": "2023-06-01",
+    "endDate": "2023-06-30",
+    "location": "Electronics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the design and innovation of electrical circuits."
+    ],
+    "prizes": {
+        "firstPlace": "Electronics prototyping kit",
+        "secondPlace": "Current electricity handbook",
+        "thirdPlace": "Circuit design poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/ZgpJ2c1/ph3.jpg"
+    },
+    {
+    "challengeId": 4,
+    "title": "Magnetic Fields Exploration",
+    "description": "Conduct experiments to explore and manipulate magnetic fields, emphasizing the principles of magnetism.",
+    "startDate": "2023-07-01",
+    "endDate": "2023-07-31",
+    "location": "Magnetism Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on the exploration or manipulation of magnetic fields."
+    ],
+    "prizes": {
+        "firstPlace": "Magnetism experimentation kit",
+        "secondPlace": "Magnetic field manipulation handbook",
+        "thirdPlace": "Magnetism poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/DpKdbZC/ph4.png"
+    },
+    {
+    "challengeId": 5,
+    "title": "Optical Illusions Showcase",
+    "description": "Create and demonstrate optical illusions, exploring principles of geometrical optics.",
+    "startDate": "2023-08-01",
+    "endDate": "2023-08-31",
+    "location": "Optics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the creation and demonstration of optical illusions."
+    ],
+    "prizes": {
+        "firstPlace": "Geometrical optics experimentation kit",
+        "secondPlace": "Optical illusions handbook",
+        "thirdPlace": "Optical phenomena poster set"
+    },
+    "categories": "popular",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/GWK1Cm0/ph5.jpg"
+    },
+    {
+    "challengeId": 6,
+    "title": "Wave-Particle Duality Exploration",
+    "description": "Explore the wave-particle duality of light through hands-on experiments, emphasizing principles of physical optics.",
+    "startDate": "2023-09-01",
+    "endDate": "2023-09-30",
+    "location": "Physical Optics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on the wave-particle duality of light."
+    ],
+    "prizes": {
+        "firstPlace": "Physical optics experimentation kit",
+        "secondPlace": "Wave-particle duality handbook",
+        "thirdPlace": "Light interference poster set"
+    },
+    "categories": "offerd",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/f0jyNG6/ph6.jpg"
+    },
+    {
+    "challengeId": 7,
+    "title": "Quantum Leap Challenge",
+    "description": "Design and conduct experiments showcasing concepts of atomic model and nuclear physics.",
+    "startDate": "2023-10-01",
+    "endDate": "2023-10-31",
+    "location": "Nuclear Physics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve quantum leap concepts in atomic and nuclear physics."
+    ],
+    "prizes": {
+        "firstPlace": "Quantum physics experimentation kit",
+        "secondPlace": "Atomic and nuclear physics handbook",
+        "thirdPlace": "Quantum leap poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/9GJR52c/ph7.webp"
+    },
+    {
+    "challengeId": 8,
+    "title": "Semiconductor Innovation Contest",
+    "description": "Innovate and design new applications for semiconductors and electronic components.",
+    "startDate": "2023-11-01",
+    "endDate": "2023-11-30",
+    "location": "Semiconductor Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the innovation and design of semiconductor applications."
+    ],
+    "prizes": {
+        "firstPlace": "Semiconductor innovation kit",
+        "secondPlace": "Electronics design handbook",
+        "thirdPlace": "Semiconductor applications poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/23H7Hbs/ph8.jpg"
+    },
+    {
+    "challengeId": 9,
+    "title": "Einstein's Thought Experiments",
+    "description": "Recreate and analyze famous thought experiments from Albert Einstein's contributions to theoretical physics.",
+    "startDate": "2023-12-01",
+    "endDate": "2023-12-31",
+    "location": "Theoretical Physics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on recreating and analyzing Einstein's thought experiments."
+    ],
+    "prizes": {
+        "firstPlace": "Theoretical physics toolkit",
+        "secondPlace": "Einstein's thought experiments handbook",
+        "thirdPlace": "Einstein poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/DbQJQ48/ph9.png"
+    },
+    {
+    "challengeId": 10,
+    "title": "Quantum Computing Exploration",
+    "description": "Explore the principles and applications of quantum computing in a hands-on experiment.",
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-31",
+    "location": "Quantum Computing Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the exploration of quantum computing principles."
+    ],
+    "prizes": {
+        "firstPlace": "Quantum computing toolkit",
+        "secondPlace": "Quantum computing handbook",
+        "thirdPlace": "Quantum algorithms poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/s32b08X/ph10.jpg"
+    },
+    {
+    "challengeId": 11,
+    "title": "Astrophysics Discovery Challenge",
+    "description": "Conduct experiments to explore celestial phenomena and principles of astrophysics.",
+    "startDate": "2024-02-01",
+    "endDate": "2024-02-29",
+    "location": "Astrophysics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the exploration of astrophysical phenomena."
+    ],
+    "prizes": {
+        "firstPlace": "Astrophysics experimentation kit",
+        "secondPlace": "Astrophysics handbook",
+        "thirdPlace": "Celestial phenomena poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/PDk7BP8/ph11.jpg"
+    },
+    {
+    "challengeId": 12,
+    "title": "Plasma Physics Challenge",
+    "description": "Investigate the properties and applications of plasma in a hands-on experiment.",
+    "startDate": "2024-03-01",
+    "endDate": "2024-03-31",
+    "location": "Plasma Physics Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the investigation of plasma properties and applications."
+    ],
+    "prizes": {
+        "firstPlace": "Plasma physics toolkit",
+        "secondPlace": "Plasma physics handbook",
+        "thirdPlace": "Plasma applications poster set"
+    },
+    "categories": "physics",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/H27pF6Z/ph12.jpg"
+    },
+    {
+    "challengeId": 1,
+    "title": "Chemical Reaction Kinetics",
+    "description": "Investigate the kinetics of a chemical reaction and explore factors affecting reaction rates.",
+    "startDate": "2023-06-01",
+    "endDate": "2023-06-30",
+    "location": "Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on chemical reaction kinetics."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced chemistry kinetics kit",
+        "secondPlace": "Reaction kinetics handbook",
+        "thirdPlace": "Chemical kinetics poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/Vv1hfxQ/ch1.png"
+    },
+    {
+    "challengeId": 2,
+    "title": "Organic Synthesis Innovation",
+    "description": "Design and execute innovative experiments in organic synthesis, exploring new methods and reactions.",
+    "startDate": "2023-07-01",
+    "endDate": "2023-07-31",
+    "location": "Organic Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve innovative organic synthesis techniques."
+    ],
+    "prizes": {
+        "firstPlace": "Organic synthesis experimentation kit",
+        "secondPlace": "Organic synthesis handbook",
+        "thirdPlace": "Innovative synthesis poster set"
+    },
+    "categories": "offerd",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/3zw7Nvk/ch2.png"
+    },
+    {
+    "challengeId": 3,
+    "title": "Analytical Chemistry Challenge",
+    "description": "Develop and apply analytical methods to solve real-world chemical problems.",
+    "startDate": "2023-08-01",
+    "endDate": "2023-08-31",
+    "location": "Analytical Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve analytical chemistry methods."
+    ],
+    "prizes": {
+        "firstPlace": "Analytical chemistry toolkit",
+        "secondPlace": "Analytical methods handbook",
+        "thirdPlace": "Chemical analysis poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/1dg4zBh/ch3.jpg"
+    },
+    {
+    "challengeId": 4,
+    "title": "Inorganic Coordination Complexes",
+    "description": "Investigate the synthesis and properties of inorganic coordination complexes.",
+    "startDate": "2023-09-01",
+    "endDate": "2023-09-30",
+    "location": "Inorganic Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on inorganic coordination complexes."
+    ],
+    "prizes": {
+        "firstPlace": "Inorganic coordination kit",
+        "secondPlace": "Coordination complexes handbook",
+        "thirdPlace": "Complex synthesis poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/mtRf5Nt/ch4.jpg"
+    },
+    {
+    "challengeId": 5,
+    "title": "Physical Chemistry Innovations",
+    "description": "Explore innovative experiments in physical chemistry, studying thermodynamics, kinetics, and quantum mechanics.",
+    "startDate": "2023-10-01",
+    "endDate": "2023-10-31",
+    "location": "Physical Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve innovative approaches in physical chemistry."
+    ],
+    "prizes": {
+        "firstPlace": "Physical chemistry experimentation kit",
+        "secondPlace": "Physical chemistry innovations handbook",
+        "thirdPlace": "Quantum chemistry poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/n13XC5Y/ch5.jpg"
+    },
+    {
+    "challengeId": 6,
+    "title": "Biochemical Innovations",
+    "description": "Design experiments to explore innovative applications in biochemistry, focusing on biomolecules and cellular processes.",
+    "startDate": "2023-11-01",
+    "endDate": "2023-11-30",
+    "location": "Biochemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve innovative applications in biochemistry."
+    ],
+    "prizes": {
+        "firstPlace": "Biochemistry experimentation kit",
+        "secondPlace": "Biochemical innovations handbook",
+        "thirdPlace": "Biomolecular processes poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/Dw3JLy9/ch6.jpg"
+    },
+    {
+    "challengeId": 7,
+    "title": "Green Chemistry Challenge",
+    "description": "Develop eco-friendly chemical processes and solutions, promoting sustainable practices in chemistry.",
+    "startDate": "2023-12-01",
+    "endDate": "2023-12-31",
+    "location": "Green Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on green and sustainable chemistry practices."
+    ],
+    "prizes": {
+        "firstPlace": "Green chemistry toolkit",
+        "secondPlace": "Sustainable chemistry handbook",
+        "thirdPlace": "Eco-friendly solutions poster set"
+    },
+    "categories": "popular",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/7t6MX3M/ch7.jpg"
+    },
+    {
+    "challengeId": 8,
+    "title": "Polymer Synthesis Exploration",
+    "description": "Investigate innovative methods in the synthesis and application of polymers and macromolecules.",
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-31",
+    "location": "Polymer Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must involve the synthesis and application of polymers."
+    ],
+    "prizes": {
+        "firstPlace": "Polymer chemistry toolkit",
+        "secondPlace": "Polymer synthesis handbook",
+        "thirdPlace": "Innovative polymer applications poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/P55k35j/ch8.png"
+    },
+    {
+    "challengeId": 9,
+    "title": "Surface Chemistry Challenges",
+    "description": "Explore surface phenomena and reactions in innovative experiments focusing on surface chemistry.",
+    "startDate": "2024-02-01",
+    "endDate": "2024-02-29",
+    "location": "Surface Chemistry Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must focus on surface chemistry phenomena and reactions."
+    ],
+    "prizes": {
+        "firstPlace": "Surface chemistry toolkit",
+        "secondPlace": "Surface reactions handbook",
+        "thirdPlace": "Innovative surface chemistry poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/KDRpLj6/ch9.png"
+    },
+    {
+    "challengeId": 10,
+    "title": "Chemical Education Outreach",
+    "description": "Develop and implement innovative experiments for chemical education outreach programs.",
+    "startDate": "2024-03-01",
+    "endDate": "2024-03-31",
+    "location": "Chemical Education Lab, Cityville Science Center",
+    "rules": [
+        "Participants must be 18 years or older.",
+        "Experiment must be designed for chemical education outreach programs."
+    ],
+    "prizes": {
+        "firstPlace": "Chemical education toolkit",
+        "secondPlace": "Outreach program handbook",
+        "thirdPlace": "Educational experiments poster set"
+    },
+    "categories": "chemistry",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/SfR4Qgw/ch10.jpg"
+    },
+    {
+    "challengeId": 1,
+    "title": "Abstract Algebra Puzzles",
+    "description": "Solve complex abstract algebra puzzles and prove theorems to showcase your understanding.",
+    "startDate": "2023-06-01",
+    "endDate": "2023-06-30",
+    "location": "Mathematics Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in abstract algebra.",
+        "Prove theorems and solve abstract algebra puzzles."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced abstract algebra toolkit",
+        "secondPlace": "Abstract algebra puzzle book",
+        "thirdPlace": "Abstract algebra poster set"
+    },
+    "categories": "math",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/RCj5fLQ/math1.webp"
+    },
+    {
+    "challengeId": 2,
+    "title": "Differential Equations Marathon",
+    "description": "Participate in a marathon of solving challenging differential equations from various domains.",
+    "startDate": "2023-07-01",
+    "endDate": "2023-07-31",
+    "location": "Calculus Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in differential equations.",
+        "Solve challenging differential equations within a specified time."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced differential equations toolkit",
+        "secondPlace": "Differential equations challenge book",
+        "thirdPlace": "Differential equations poster set"
+    },
+    "categories": "offerd",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/F4NFP9w/math2.png"
+    },
+    {
+    "challengeId": 3,
+    "title": "Topology Exploration",
+    "description": "Explore and solve problems in point-set topology, emphasizing fundamental concepts and theorems.",
+    "startDate": "2023-08-01",
+    "endDate": "2023-08-31",
+    "location": "Topology Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in topology.",
+        "Explore and solve problems in point-set topology."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced topology toolkit",
+        "secondPlace": "Topology exploration book",
+        "thirdPlace": "Topology poster set"
+    },
+    "categories": "math",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/c68gBGK/math3.jpg"
+    },
+    {
+    "challengeId": 4,
+    "title": "Real Analysis Challenge",
+    "description": "Tackle challenging problems in real analysis, proving theorems and demonstrating deep mathematical understanding.",
+    "startDate": "2023-09-01",
+    "endDate": "2023-09-30",
+    "location": "Real Analysis Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in real analysis.",
+        "Tackle challenging problems and prove theorems in real analysis."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced real analysis toolkit",
+        "secondPlace": "Real analysis challenge book",
+        "thirdPlace": "Real analysis poster set"
+    },
+    "categories": "math",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/FkvbVfW/math4.jpg"
+    },
+    {
+    "challengeId": 5,
+    "title": "Number Theory Marathon",
+    "description": "Participate in a marathon of solving number theory problems, exploring properties and relationships of integers.",
+    "startDate": "2023-10-01",
+    "endDate": "2023-10-31",
+    "location": "Number Theory Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in number theory.",
+        "Solve number theory problems within a specified time."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced number theory toolkit",
+        "secondPlace": "Number theory marathon book",
+        "thirdPlace": "Number theory poster set"
+    },
+    "categories": "math",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/GW0q2Nf/math5.jpg"
+    },
+    {
+    "challengeId": 6,
+    "title": "Complex Analysis Quest",
+    "description": "Embark on a quest to solve challenging problems in complex analysis, exploring properties of complex numbers and functions.",
+    "startDate": "2023-11-01",
+    "endDate": "2023-11-30",
+    "location": "Complex Analysis Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in complex analysis.",
+        "Solve challenging problems in complex analysis within a specified time."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced complex analysis toolkit",
+        "secondPlace": "Complex analysis quest book",
+        "thirdPlace": "Complex analysis poster set"
+    },
+    "categories": "popular",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/n65Wzj1/math6.jpg"
+    },
+    {
+    "challengeId": 7,
+    "title": "Algebraic Geometry Exploration",
+    "description": "Explore the fascinating world of algebraic geometry by solving problems related to algebraic varieties and schemes.",
+    "startDate": "2023-12-01",
+    "endDate": "2023-12-31",
+    "location": "Algebraic Geometry Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in algebraic geometry.",
+        "Explore and solve problems related to algebraic varieties and schemes."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced algebraic geometry toolkit",
+        "secondPlace": "Algebraic geometry exploration book",
+        "thirdPlace": "Algebraic geometry poster set"
+    },
+    "categories": "math",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/JjPvZ96/math7.jpg"
+    },
+    {
+    "challengeId": 8,
+    "title": "Set Theory Challenges",
+    "description": "Tackle challenging problems in set theory, exploring the foundations of mathematical logic and infinite sets.",
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-31",
+    "location": "Set Theory Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in set theory.",
+        "Tackle challenging problems in set theory and demonstrate logical reasoning."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced set theory toolkit",
+        "secondPlace": "Set theory challenges book",
+        "thirdPlace": "Set theory poster set"
+    },
+    "categories": "math",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/xCPy28M/math8.png"
+    },
+    {
+    "challengeId": 9,
+    "title": "Graph Theory Marathon",
+    "description": "Participate in a marathon solving problems in graph theory, exploring properties of graphs and networks.",
+    "startDate": "2024-02-01",
+    "endDate": "2024-02-29",
+    "location": "Graph Theory Lab, Cityville Institute of Advanced Studies",
+    "rules": [
+        "Participants must have a strong background in graph theory.",
+        "Solve graph theory problems within a specified time."
+    ],
+    "prizes": {
+        "firstPlace": "Advanced graph theory toolkit",
+        "secondPlace": "Graph theory marathon book",
+        "thirdPlace": "Graph theory poster set"
+    },
+    "categories": "math",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/C9sNR3v/math9.png"
+    },
+    {
+    "challengeId": 1,
+    "title": "Literary Analysis Masterclass",
+    "description": "Engage in a masterclass of literary analysis, where participants delve into complex literary works and provide insightful analyses.",
+    "startDate": "2023-06-01",
+    "endDate": "2023-06-30",
+    "location": "Writing Center, Cityville Institute of Advanced Writing",
+    "rules": [
+        "Participants must have a strong background in literature and literary analysis.",
+        "Provide insightful analyses of selected literary works."
+    ],
+    "prizes": {
+        "firstPlace": "Masterclass writing toolkit",
+        "secondPlace": "Literary analysis masterclass certificate",
+        "thirdPlace": "Literary analysis poster set"
+    },
+    "categories": "writing",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/ZRQ9n8Y/wr1.jpg"
+    },
+    {
+    "challengeId": 2,
+    "title": "Creative Writing Marathon",
+    "description": "Participate in a marathon of creative writing challenges, where participants craft original and imaginative pieces within a limited time.",
+    "startDate": "2023-07-01",
+    "endDate": "2023-07-31",
+    "location": "Creative Writing Lab, Cityville Institute of Advanced Writing",
+    "rules": [
+        "Participants must have a passion for creative writing.",
+        "Craft original and imaginative pieces within a specified time."
+    ],
+    "prizes": {
+        "firstPlace": "Creative writing toolkit",
+        "secondPlace": "Creative writing marathon certificate",
+        "thirdPlace": "Creative writing poster set"
+    },
+    "categories": "popular",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/MPJJgVk/wr2.jpg"
+    },
+    {
+    "challengeId": 3,
+    "title": "Journalism Investigative Report",
+    "description": "Conduct in-depth investigative journalism, uncovering and reporting on critical social or political issues.",
+    "startDate": "2023-08-01",
+    "endDate": "2023-08-31",
+    "location": "Journalism Lab, Cityville Institute of Advanced Writing",
+    "rules": [
+        "Participants must have a background in journalism or investigative reporting.",
+        "Conduct in-depth investigative journalism on critical issues."
+    ],
+    "prizes": {
+        "firstPlace": "Investigative journalism toolkit",
+        "secondPlace": "Journalism investigative report certificate",
+        "thirdPlace": "Journalism poster set"
+    },
+    "categories": "writing",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/3fjbF7Q/wr3.jpg"
+    },
+    {
+    "challengeId": 4,
+    "title": "Persuasive Essay Showcase",
+    "description": "Showcase the art of persuasion through well-crafted persuasive essays on relevant and thought-provoking topics.",
+    "startDate": "2023-09-01",
+    "endDate": "2023-09-30",
+    "location": "Essay Writing Lab, Cityville Institute of Advanced Writing",
+    "rules": [
+        "Participants must have a strong background in persuasive writing.",
+        "Craft persuasive essays on relevant and thought-provoking topics."
+    ],
+    "prizes": {
+        "firstPlace": "Persuasive writing toolkit",
+        "secondPlace": "Persuasive essay showcase certificate",
+        "thirdPlace": "Persuasive writing poster set"
+    },
+    "categories": "writing",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/44CgvZt/wr4.jpg"
+    },
+    {
+    "challengeId": 5,
+    "title": "Screenwriting Intensive",
+    "description": "Participate in an intensive screenwriting challenge, where participants create compelling scripts for film or television.",
+    "startDate": "2023-10-01",
+    "endDate": "2023-10-31",
+    "location": "Screenwriting Lab, Cityville Institute of Advanced Writing",
+    "rules": [
+        "Participants must have an interest in screenwriting.",
+        "Create compelling scripts for film or television within a specified time."
+    ],
+    "prizes": {
+        "firstPlace": "Screenwriting toolkit",
+        "secondPlace": "Screenwriting intensive certificate",
+        "thirdPlace": "Screenwriting poster set"
+    },
+    "categories": "writing",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/VD2MyYJ/wr5.jpg"
+    },
+    {
+    "challengeId": 1,
+    "title": "Elite Athlete Fitness Challenge",
+    "description": "Participate in a fitness challenge designed for elite athletes, showcasing endurance, strength, and agility.",
+    "startDate": "2023-06-01",
+    "endDate": "2023-06-30",
+    "location": "Sports Performance Center, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must be elite athletes or have a strong background in sports performance.",
+        "Showcase endurance, strength, and agility in a series of challenges."
+    ],
+    "prizes": {
+        "firstPlace": "Elite athlete fitness toolkit",
+        "secondPlace": "Fitness challenge elite athlete certificate",
+        "thirdPlace": "Elite athlete fitness poster set"
+    },
+    "categories": "spots",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/ZBpyWqh/sp1.jpg"
+    },
+    {
+    "challengeId": 2,
+    "title": "Tactical Strategy in Team Sports",
+    "description": "Demonstrate tactical strategies in team sports, emphasizing teamwork, communication, and strategic thinking.",
+    "startDate": "2023-07-01",
+    "endDate": "2023-07-31",
+    "location": "Sports Strategy Lab, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must have experience in team sports.",
+        "Demonstrate tactical strategies emphasizing teamwork, communication, and strategic thinking."
+    ],
+    "prizes": {
+        "firstPlace": "Sports strategy toolkit",
+        "secondPlace": "Team sports strategy certificate",
+        "thirdPlace": "Sports strategy poster set"
+    },
+    "categories": "offerd",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/wcKBsz5/sp2.png"
+    },
+    {
+    "challengeId": 3,
+    "title": "Extreme Sports Adventure",
+    "description": "Embark on an extreme sports adventure, combining physical prowess and courage in challenging environments.",
+    "startDate": "2023-08-01",
+    "endDate": "2023-08-31",
+    "location": "Extreme Sports Center, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must have experience in extreme sports.",
+        "Embark on an extreme sports adventure in challenging environments."
+    ],
+    "prizes": {
+        "firstPlace": "Extreme sports adventure toolkit",
+        "secondPlace": "Extreme sports adventure certificate",
+        "thirdPlace": "Extreme sports adventure poster set"
+    },
+    "categories": "spots",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/M9PbBGs/sp3.jpg"
+    },
+    {
+    "challengeId": 4,
+    "title": "Sports Nutrition Excellence",
+    "description": "Showcase knowledge and expertise in sports nutrition, creating personalized nutrition plans for athletes.",
+    "startDate": "2023-09-01",
+    "endDate": "2023-09-30",
+    "location": "Sports Nutrition Lab, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must have expertise in sports nutrition.",
+        "Create personalized nutrition plans for athletes based on their training needs."
+    ],
+    "prizes": {
+        "firstPlace": "Sports nutrition excellence toolkit",
+        "secondPlace": "Sports nutrition excellence certificate",
+        "thirdPlace": "Sports nutrition excellence poster set"
+    },
+    "categories": "popular",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/zVdgxym/sp4.jpg"
+    },
+    {
+    "challengeId": 5,
+    "title": "Athlete Mental Resilience",
+    "description": "Demonstrate mental resilience and psychological strength in the face of challenging sports scenarios.",
+    "startDate": "2023-10-01",
+    "endDate": "2023-10-31",
+    "location": "Sports Psychology Lab, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must have knowledge in sports psychology.",
+        "Demonstrate mental resilience in the face of challenging sports scenarios."
+    ],
+    "prizes": {
+        "firstPlace": "Athlete mental resilience toolkit",
+        "secondPlace": "Mental resilience certificate",
+        "thirdPlace": "Athlete mental resilience poster set"
+    },
+    "categories": "spots",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/tC2wDGJ/sp5.jpg"
+    },
+    {
+    "challengeId": 6,
+    "title": "Precision in Sports Performance",
+    "description": "Demonstrate precision in sports performance, focusing on accuracy, control, and technique in various athletic activities.",
+    "startDate": "2023-11-01",
+    "endDate": "2023-11-30",
+    "location": "Sports Precision Center, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must have a background in precision sports.",
+        "Demonstrate accuracy, control, and technique in various athletic activities."
+    ],
+    "prizes": {
+        "firstPlace": "Precision sports toolkit",
+        "secondPlace": "Precision sports performance certificate",
+        "thirdPlace": "Precision sports poster set"
+    },
+    "categories": "spots",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/frb2yjg/sp6.jpg"
+    },
+    {
+    "challengeId": 7,
+    "title": "Adaptive Sports Innovation",
+    "description": "Showcase innovation in adaptive sports, designing and demonstrating creative solutions to enhance inclusivity in sports.",
+    "startDate": "2023-12-01",
+    "endDate": "2023-12-31",
+    "location": "Adaptive Sports Lab, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must have a background in adaptive sports.",
+        "Design and demonstrate creative solutions to enhance inclusivity in sports."
+    ],
+    "prizes": {
+        "firstPlace": "Adaptive sports innovation toolkit",
+        "secondPlace": "Adaptive sports innovation certificate",
+        "thirdPlace": "Adaptive sports innovation poster set"
+    },
+    "categories": "spots",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/d7KFZSp/sp7.jpg"
+    },
+    {
+    "challengeId": 8,
+    "title": "Sports Biomechanics Mastery",
+    "description": "Showcase mastery in sports biomechanics, analyzing and optimizing athletic movements for improved performance.",
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-31",
+    "location": "Biomechanics Lab, Cityville Institute of Advanced Sports",
+    "rules": [
+        "Participants must have expertise in sports biomechanics.",
+        "Analyze and optimize athletic movements for improved performance."
+    ],
+    "prizes": {
+        "firstPlace": "Biomechanics mastery toolkit",
+        "secondPlace": "Biomechanics mastery certificate",
+        "thirdPlace": "Biomechanics mastery poster set"
+    },
+    "categories": "spots",
+    "status": "upcoming",
+    "image": "https://i.ibb.co/gDpYKrL/sp8.jpg"
+    }
+]
+
+
