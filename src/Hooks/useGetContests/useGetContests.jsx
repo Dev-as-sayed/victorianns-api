@@ -14,7 +14,7 @@ const useGetContests = () => {
         }
     })
 
-    return [contest, refetch, ];
+    return [contest, refetch ];
 };
 
 export default useGetContests;

@@ -4,7 +4,7 @@
     "title": "Thermal Efficiency Optimization",
     "description": "Design an experiment to optimize the thermal efficiency of a given system, exploring principles of thermodynamics.",
     "startDate": "2023-04-01",
-    "endDate": "2023-04-30",
+    "endDate": "2024-04-30",
     "location": "Thermodynamics Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -24,7 +24,7 @@
     "title": "Charge Interaction Exploration",
     "description": "Conduct experiments to explore the interaction between charged objects, delving into the principles of electrostatics.",
     "startDate": "2023-05-01",
-    "endDate": "2023-05-31",
+    "endDate": "2024-05-31",
     "location": "Electrostatics Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -44,7 +44,7 @@
     "title": "Circuit Innovation Challenge",
     "description": "Design and build innovative circuits showcasing principles of current electricity.",
     "startDate": "2023-06-01",
-    "endDate": "2023-06-30",
+    "endDate": "2024-06-30",
     "location": "Electronics Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -64,7 +64,7 @@
     "title": "Magnetic Fields Exploration",
     "description": "Conduct experiments to explore and manipulate magnetic fields, emphasizing the principles of magnetism.",
     "startDate": "2023-07-01",
-    "endDate": "2023-07-31",
+    "endDate": "2024-07-31",
     "location": "Magnetism Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -84,7 +84,7 @@
     "title": "Optical Illusions Showcase",
     "description": "Create and demonstrate optical illusions, exploring principles of geometrical optics.",
     "startDate": "2023-08-01",
-    "endDate": "2023-08-31",
+    "endDate": "2024-08-31",
     "location": "Optics Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -104,7 +104,7 @@
     "title": "Wave-Particle Duality Exploration",
     "description": "Explore the wave-particle duality of light through hands-on experiments, emphasizing principles of physical optics.",
     "startDate": "2023-09-01",
-    "endDate": "2023-09-30",
+    "endDate": "2024-09-30",
     "location": "Physical Optics Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -124,7 +124,7 @@
     "title": "Quantum Leap Challenge",
     "description": "Design and conduct experiments showcasing concepts of atomic model and nuclear physics.",
     "startDate": "2023-10-01",
-    "endDate": "2023-10-31",
+    "endDate": "2024-10-31",
     "location": "Nuclear Physics Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -144,7 +144,7 @@
     "title": "Semiconductor Innovation Contest",
     "description": "Innovate and design new applications for semiconductors and electronic components.",
     "startDate": "2023-11-01",
-    "endDate": "2023-11-30",
+    "endDate": "2024-11-30",
     "location": "Semiconductor Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -164,7 +164,7 @@
     "title": "Einstein's Thought Experiments",
     "description": "Recreate and analyze famous thought experiments from Albert Einstein's contributions to theoretical physics.",
     "startDate": "2023-12-01",
-    "endDate": "2023-12-31",
+    "endDate": "2024-12-31",
     "location": "Theoretical Physics Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -244,7 +244,7 @@
     "title": "Chemical Reaction Kinetics",
     "description": "Investigate the kinetics of a chemical reaction and explore factors affecting reaction rates.",
     "startDate": "2023-06-01",
-    "endDate": "2023-06-30",
+    "endDate": "2024-06-30",
     "location": "Chemistry Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -264,7 +264,7 @@
     "title": "Organic Synthesis Innovation",
     "description": "Design and execute innovative experiments in organic synthesis, exploring new methods and reactions.",
     "startDate": "2023-07-01",
-    "endDate": "2023-07-31",
+    "endDate": "2024-07-31",
     "location": "Organic Chemistry Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -284,7 +284,7 @@
     "title": "Analytical Chemistry Challenge",
     "description": "Develop and apply analytical methods to solve real-world chemical problems.",
     "startDate": "2023-08-01",
-    "endDate": "2023-08-31",
+    "endDate": "2024-08-31",
     "location": "Analytical Chemistry Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -304,7 +304,7 @@
     "title": "Inorganic Coordination Complexes",
     "description": "Investigate the synthesis and properties of inorganic coordination complexes.",
     "startDate": "2023-09-01",
-    "endDate": "2023-09-30",
+    "endDate": "2024-09-30",
     "location": "Inorganic Chemistry Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -324,7 +324,7 @@
     "title": "Physical Chemistry Innovations",
     "description": "Explore innovative experiments in physical chemistry, studying thermodynamics, kinetics, and quantum mechanics.",
     "startDate": "2023-10-01",
-    "endDate": "2023-10-31",
+    "endDate": "2024-10-31",
     "location": "Physical Chemistry Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -344,7 +344,7 @@
     "title": "Biochemical Innovations",
     "description": "Design experiments to explore innovative applications in biochemistry, focusing on biomolecules and cellular processes.",
     "startDate": "2023-11-01",
-    "endDate": "2023-11-30",
+    "endDate": "2024-11-30",
     "location": "Biochemistry Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -364,7 +364,7 @@
     "title": "Green Chemistry Challenge",
     "description": "Develop eco-friendly chemical processes and solutions, promoting sustainable practices in chemistry.",
     "startDate": "2023-12-01",
-    "endDate": "2023-12-31",
+    "endDate": "2024-12-31",
     "location": "Green Chemistry Lab, Cityville Science Center",
     "rules": [
         "Participants must be 18 years or older.",
@@ -444,7 +444,7 @@
     "title": "Abstract Algebra Puzzles",
     "description": "Solve complex abstract algebra puzzles and prove theorems to showcase your understanding.",
     "startDate": "2023-06-01",
-    "endDate": "2023-06-30",
+    "endDate": "2024-06-30",
     "location": "Mathematics Lab, Cityville Institute of Advanced Studies",
     "rules": [
         "Participants must have a strong background in abstract algebra.",
@@ -464,7 +464,7 @@
     "title": "Differential Equations Marathon",
     "description": "Participate in a marathon of solving challenging differential equations from various domains.",
     "startDate": "2023-07-01",
-    "endDate": "2023-07-31",
+    "endDate": "2024-07-31",
     "location": "Calculus Lab, Cityville Institute of Advanced Studies",
     "rules": [
         "Participants must have a strong background in differential equations.",
@@ -484,7 +484,7 @@
     "title": "Topology Exploration",
     "description": "Explore and solve problems in point-set topology, emphasizing fundamental concepts and theorems.",
     "startDate": "2023-08-01",
-    "endDate": "2023-08-31",
+    "endDate": "2024-08-31",
     "location": "Topology Lab, Cityville Institute of Advanced Studies",
     "rules": [
         "Participants must have a strong background in topology.",
@@ -504,7 +504,7 @@
     "title": "Real Analysis Challenge",
     "description": "Tackle challenging problems in real analysis, proving theorems and demonstrating deep mathematical understanding.",
     "startDate": "2023-09-01",
-    "endDate": "2023-09-30",
+    "endDate": "2024-09-30",
     "location": "Real Analysis Lab, Cityville Institute of Advanced Studies",
     "rules": [
         "Participants must have a strong background in real analysis.",
@@ -524,7 +524,7 @@
     "title": "Number Theory Marathon",
     "description": "Participate in a marathon of solving number theory problems, exploring properties and relationships of integers.",
     "startDate": "2023-10-01",
-    "endDate": "2023-10-31",
+    "endDate": "2024-10-31",
     "location": "Number Theory Lab, Cityville Institute of Advanced Studies",
     "rules": [
         "Participants must have a strong background in number theory.",
@@ -544,7 +544,7 @@
     "title": "Complex Analysis Quest",
     "description": "Embark on a quest to solve challenging problems in complex analysis, exploring properties of complex numbers and functions.",
     "startDate": "2023-11-01",
-    "endDate": "2023-11-30",
+    "endDate": "2024-11-30",
     "location": "Complex Analysis Lab, Cityville Institute of Advanced Studies",
     "rules": [
         "Participants must have a strong background in complex analysis.",
@@ -564,7 +564,7 @@
     "title": "Algebraic Geometry Exploration",
     "description": "Explore the fascinating world of algebraic geometry by solving problems related to algebraic varieties and schemes.",
     "startDate": "2023-12-01",
-    "endDate": "2023-12-31",
+    "endDate": "2024-12-31",
     "location": "Algebraic Geometry Lab, Cityville Institute of Advanced Studies",
     "rules": [
         "Participants must have a strong background in algebraic geometry.",
@@ -624,7 +624,7 @@
     "title": "Literary Analysis Masterclass",
     "description": "Engage in a masterclass of literary analysis, where participants delve into complex literary works and provide insightful analyses.",
     "startDate": "2023-06-01",
-    "endDate": "2023-06-30",
+    "endDate": "2024-06-30",
     "location": "Writing Center, Cityville Institute of Advanced Writing",
     "rules": [
         "Participants must have a strong background in literature and literary analysis.",
@@ -644,7 +644,7 @@
     "title": "Creative Writing Marathon",
     "description": "Participate in a marathon of creative writing challenges, where participants craft original and imaginative pieces within a limited time.",
     "startDate": "2023-07-01",
-    "endDate": "2023-07-31",
+    "endDate": "2024-07-31",
     "location": "Creative Writing Lab, Cityville Institute of Advanced Writing",
     "rules": [
         "Participants must have a passion for creative writing.",
@@ -664,7 +664,7 @@
     "title": "Journalism Investigative Report",
     "description": "Conduct in-depth investigative journalism, uncovering and reporting on critical social or political issues.",
     "startDate": "2023-08-01",
-    "endDate": "2023-08-31",
+    "endDate": "2024-08-31",
     "location": "Journalism Lab, Cityville Institute of Advanced Writing",
     "rules": [
         "Participants must have a background in journalism or investigative reporting.",
@@ -684,7 +684,7 @@
     "title": "Persuasive Essay Showcase",
     "description": "Showcase the art of persuasion through well-crafted persuasive essays on relevant and thought-provoking topics.",
     "startDate": "2023-09-01",
-    "endDate": "2023-09-30",
+    "endDate": "2024-09-30",
     "location": "Essay Writing Lab, Cityville Institute of Advanced Writing",
     "rules": [
         "Participants must have a strong background in persuasive writing.",
@@ -704,7 +704,7 @@
     "title": "Screenwriting Intensive",
     "description": "Participate in an intensive screenwriting challenge, where participants create compelling scripts for film or television.",
     "startDate": "2023-10-01",
-    "endDate": "2023-10-31",
+    "endDate": "2024-10-31",
     "location": "Screenwriting Lab, Cityville Institute of Advanced Writing",
     "rules": [
         "Participants must have an interest in screenwriting.",
@@ -724,7 +724,7 @@
     "title": "Elite Athlete Fitness Challenge",
     "description": "Participate in a fitness challenge designed for elite athletes, showcasing endurance, strength, and agility.",
     "startDate": "2023-06-01",
-    "endDate": "2023-06-30",
+    "endDate": "2024-06-30",
     "location": "Sports Performance Center, Cityville Institute of Advanced Sports",
     "rules": [
         "Participants must be elite athletes or have a strong background in sports performance.",
@@ -744,7 +744,7 @@
     "title": "Tactical Strategy in Team Sports",
     "description": "Demonstrate tactical strategies in team sports, emphasizing teamwork, communication, and strategic thinking.",
     "startDate": "2023-07-01",
-    "endDate": "2023-07-31",
+    "endDate": "2024-07-31",
     "location": "Sports Strategy Lab, Cityville Institute of Advanced Sports",
     "rules": [
         "Participants must have experience in team sports.",
@@ -764,7 +764,7 @@
     "title": "Extreme Sports Adventure",
     "description": "Embark on an extreme sports adventure, combining physical prowess and courage in challenging environments.",
     "startDate": "2023-08-01",
-    "endDate": "2023-08-31",
+    "endDate": "2024-08-31",
     "location": "Extreme Sports Center, Cityville Institute of Advanced Sports",
     "rules": [
         "Participants must have experience in extreme sports.",
@@ -784,7 +784,7 @@
     "title": "Sports Nutrition Excellence",
     "description": "Showcase knowledge and expertise in sports nutrition, creating personalized nutrition plans for athletes.",
     "startDate": "2023-09-01",
-    "endDate": "2023-09-30",
+    "endDate": "2024-09-30",
     "location": "Sports Nutrition Lab, Cityville Institute of Advanced Sports",
     "rules": [
         "Participants must have expertise in sports nutrition.",
@@ -804,7 +804,7 @@
     "title": "Athlete Mental Resilience",
     "description": "Demonstrate mental resilience and psychological strength in the face of challenging sports scenarios.",
     "startDate": "2023-10-01",
-    "endDate": "2023-10-31",
+    "endDate": "2024-10-31",
     "location": "Sports Psychology Lab, Cityville Institute of Advanced Sports",
     "rules": [
         "Participants must have knowledge in sports psychology.",
@@ -824,7 +824,7 @@
     "title": "Precision in Sports Performance",
     "description": "Demonstrate precision in sports performance, focusing on accuracy, control, and technique in various athletic activities.",
     "startDate": "2023-11-01",
-    "endDate": "2023-11-30",
+    "endDate": "2024-11-30",
     "location": "Sports Precision Center, Cityville Institute of Advanced Sports",
     "rules": [
         "Participants must have a background in precision sports.",
@@ -844,7 +844,7 @@
     "title": "Adaptive Sports Innovation",
     "description": "Showcase innovation in adaptive sports, designing and demonstrating creative solutions to enhance inclusivity in sports.",
     "startDate": "2023-12-01",
-    "endDate": "2023-12-31",
+    "endDate": "2024-12-31",
     "location": "Adaptive Sports Lab, Cityville Institute of Advanced Sports",
     "rules": [
         "Participants must have a background in adaptive sports.",
@@ -882,3 +882,47 @@
 ]
 
 
+
+// [
+//     {
+//     "name": "John Doe",
+//     "specialization": "Physics",
+//     "email": "johndoe@example.com",
+//     "phone": "123-456-7890",
+//     "location": "Dhaka, Bangladesh",
+//     "image": "https://example.com/images/johndoe.jpg"
+//     },
+//     {
+//     "name": "Alice Smith",
+//     "specialization": "Chemistry",        
+//     "email": "alicesmith@example.com",
+//     "phone": "987-654-3210",
+//     "location": "Chittagong, Bangladesh",
+//     "image": "https://example.com/images/alicesmith.jpg"
+//     },
+//     {
+//     "name": "Bob Johnson",
+//     "specialization": "Math",        
+//     "email": "bobjohnson@example.com",
+//     "phone": "456-789-0123",
+//     "location": "Khulna, Bangladesh",
+//     "image": "https://example.com/images/bobjohnson.jpg"
+//     },
+//     {
+//     "name": "Emily White",
+//     "specialization": "Writing",        
+//     "email": "emilywhite@example.com",
+//     "phone": "789-012-3456",
+//     "location": "Rajshahi, Bangladesh",
+//     "image": "https://example.com/images/emilywhite.jpg"
+//     },
+//     {
+//     "name": "Mike Brown",
+//     "specialization": "Sports",        
+//     "email": "mikebrown@example.com",
+//     "phone": "012-345-6789",
+//     "location": "Sylhet, Bangladesh",
+//     "image": "https://example.com/images/mikebrown.jpg"
+//     }
+// ]
+  

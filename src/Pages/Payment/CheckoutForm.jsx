@@ -3,8 +3,9 @@ import { useContext, useEffect, useState } from "react";
 import useAxiosSecure from "../../Hooks/useAxiosSecure/useAxiosSecure";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import useMyBookings from "../../Hooks/useMyBookings/useMyBookings";
+import Booking from "../Booking/Booking";
 
-const CheckoutForm = ({ paymentAmount }) => {
+const CheckoutForm = ({ paymentAmount, contestId }) => {
     const [clientSecret, setClientSecret] = useState('');
     const [error, setError] = useState();
     const [transactionId, setTransationId] = useState('');
@@ -13,6 +14,8 @@ const CheckoutForm = ({ paymentAmount }) => {
     const axiosSecure = useAxiosSecure();
     const { user } = useContext(AuthContext);
     const [ myBookings, refetch ] = useMyBookings();
+
+    console.log(contestId);
     
     useEffect( () => {
         axiosSecure.post('/create-paymetn-intent', {price: parseInt(paymentAmount)})
@@ -68,8 +71,9 @@ const CheckoutForm = ({ paymentAmount }) => {
                     price: paymentAmount,
                     transactionId: paymentIntent.id,
                     date: new Date(),  // ust date convert. use moment js to convart date. this comment for my hint to leaar about moment js
+                    // payedIds: myBookings.map( item => item._id),
                     payedIds: myBookings.map( item => item._id),
-                    payedContestIds: myBookings.map( item => item.constestId)
+                    payedContestIds: contestId
                 }
 
                 axiosSecure.post('/post-pay-history', payment)
@@ -80,6 +84,7 @@ const CheckoutForm = ({ paymentAmount }) => {
     }
     return (
         <div>
+            <h2 className="text-center py-3 text-lg">pay {paymentAmount} $ for join</h2>
             <form onSubmit={handelPaymentChaeckout}>
                 <CardElement
                     options={{
@@ -103,6 +108,7 @@ const CheckoutForm = ({ paymentAmount }) => {
                 <p className="text-red-600">{error}</p>
                 { transactionId && <p className="text-green-700">your tansection id: {transactionId}</p>}
             </form>
+                { transactionId && <Booking  transactionId={transactionId} contestId={contestId}></Booking>}
         </div>
     );
 };

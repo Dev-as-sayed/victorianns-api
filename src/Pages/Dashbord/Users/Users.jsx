@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure/useAxiosSecure";
 import { BiSolidUserPlus, BiTrash } from "react-icons/bi";
+import { SiSpringCreators } from "react-icons/si";
 import Swal from "sweetalert2";
 
 const Users = () => {
@@ -16,8 +17,6 @@ const Users = () => {
     })
 
     const handelMakeAdmin = (user) => {
-
-
         Swal.fire({
             title: "Are you sure?",
             text: "You won't to make admin..!",
@@ -41,8 +40,39 @@ const Users = () => {
             }
           });
     }
-    const handelDeletUser = ( user ) =>{
+    
+    const handelMakeCreator = (user) => {
+        console.log(user);
+        const creator = {
+            "name": user?.displayName,
+            "email": user?.email,
+            "image": user?.photoURL
+        }
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't to make admin..!",
+            icon: "info",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, make it!"
+          }).then((result) => {
+            if (result.isConfirmed) {
+                axiosSecure.patch(`/makeCreator/${user?._id}`)
+                    .then(res => {
+                        console.log(res.data);
+                        Swal.fire({
+                          title: "Done",
+                          text: "Your convated has been admin.",
+                          icon: "success"
+                        });
 
+                        refetch();
+                    })
+            }
+          });
+    }
+    const handelDeletUser = ( user ) =>{
         Swal.fire({
             title: "Are you sure?",
             text: "You won't be able to revert this!",
@@ -65,10 +95,6 @@ const Users = () => {
                     })
             }
           });
-
-
-
-
     }
     console.log(users);
     return (
@@ -96,12 +122,25 @@ const Users = () => {
                                 <td>{user.name}</td>
                                 <td>{user.email}</td>
                                 <td>
-                                    { user.role === 'admin' ? 'Admin' : <button
-                                        onClick={() => handelMakeAdmin(user)}
-                                        className="">
-                                        <BiSolidUserPlus className="text-black 
-                                        text-2xl"></BiSolidUserPlus>
-                                    </button>}
+                                    { user.role === 'admin' ?
+                                        'Admin' 
+                                     : 
+                                     user.role === 'creator' ?
+                                        'Creator'
+                                     :
+                                        <>
+                                            <button
+                                                onClick={() => handelMakeAdmin(user)}
+                                                className="mr-4">
+                                                <BiSolidUserPlus className="text-black text-2xl "></BiSolidUserPlus>
+                                            </button>
+                                            <button
+                                                onClick={() => handelMakeCreator(user)}
+                                                className="">
+                                                <SiSpringCreators className="text-black text-sm mb-1"></SiSpringCreators>
+                                            </button>
+                                        </>
+                                    }
                                 </td>
                                 <td>
                                     <button

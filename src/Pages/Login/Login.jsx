@@ -3,9 +3,10 @@ import loginImg from "../../assets/Home/loging.jpg"
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import { AiFillGoogleCircle } from "react-icons/ai";
 
 const Login = () => {
-    const { signIn } = useContext(AuthContext);
+    const { signIn, handelLoginWithGoogle } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
     const from = location.state?.from?.pathname || "/";
@@ -27,9 +28,18 @@ const Login = () => {
                 form.reset();
                 navigate(from, { replace: true });
             }) 
-
-        
     }
+
+    const loginWithGoogle = () => {
+        handelLoginWithGoogle()
+            .then(res =>  {
+                console.log(res.user);
+                navigate(from, { replace: true })
+            })
+            
+    }
+
+
     return (
         <div className="hero min-h-screen pt-11 bg-gray-50">
             <div className="hero-content flex-col lg:flex-row">
@@ -52,10 +62,11 @@ const Login = () => {
                             <input type="password" name="password" placeholder="password" className="input bg-white" required />
                         </div>
                         <div className="form-control mt-6">
-                            <button className="btn btn-primary">Registar</button>
+                            <button className="btn btn-primary">Login</button>
                         </div>
                     </form>
                     <div className="text-center pb-4">
+                        <button className="px-8 btn btn-primary" onClick={loginWithGoogle}> <AiFillGoogleCircle className="w-6 h-6 text-white" /> Google</button>
                         <p>New on this site...!<Link to="/registar">   <span className="text-blue-500 underline">registar</span></Link></p>
                     </div>
                 </div>

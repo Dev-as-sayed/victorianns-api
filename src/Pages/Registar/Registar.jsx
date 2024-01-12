@@ -3,13 +3,16 @@ import registarImg from "../../assets/Home/registae.jpg"
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import useAxiosPublic from "../../Hooks/useAxiosPublic/useAxiosPublic";
 import Swal from "sweetalert2";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { AiFillGoogleCircle } from "react-icons/ai";
 
 
 const Registar = () => {
-    const { createNewUser, updateUserProfile } = useContext(AuthContext)
+    const { createNewUser, updateUserProfile, handelLoginWithGoogle } = useContext(AuthContext)
     const axiosPublic = useAxiosPublic();
     const url = '/uploadeUser';
+    const navigate = useNavigate();
+    const from = location.state?.from?.pathname || "/";
 
     const handelRegistar = e =>{
         e.preventDefault();
@@ -44,6 +47,15 @@ const Registar = () => {
             })
             .catch( err => console.log(err.message))
     }
+
+    const loginWithGoogle = () => {
+        handelLoginWithGoogle()
+        .then(res =>  {
+            console.log(res.user);
+            navigate(from, { replace: true })
+        })
+    }
+
     return (
         <div className="hero min-h-screen pt-11 bg-gray-50">
             <div className="hero-content flex-col lg:flex-row">
@@ -82,6 +94,7 @@ const Registar = () => {
                         </div>
                     </form>
                     <div className="text-center pb-4">
+                    <button className="px-8 btn btn-primary" onClick={loginWithGoogle}> <AiFillGoogleCircle className="w-6 h-6 text-white" /> Google</button>
                         <p>alrady have an account <Link to="/login"><span className="text-blue-500 underline">login</span></Link></p>
                     </div>
                 </div>

@@ -20,6 +20,11 @@ import Payment from "../Pages/Payment/Payment";
 import PaymentHistory from "../Pages/Dashbord/PaymentHistory/PaymentHistory";
 import PayedContests from "../Pages/Dashbord/PayedContests/PayedContests";
 import MyPaymenst from "../Pages/Dashbord/MyPaymenst/MyPaymenst";
+import CreatorRout from "./CreatorRout";
+import AddContest from "../Pages/Dashbord/AddContest/AddContest";
+import MyAddedContest from "../Pages/Dashbord/MyAddedContest/MyAddedContest";
+import AllCreator from "../Pages/Dashbord/AllCreator/AllCreator";
+import TopContest from "../Pages/Home/TopContest/TopContest";
 
 export const router = createBrowserRouter([
     {
@@ -31,12 +36,16 @@ export const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/detail/:_id',
+                path: '/detail/:contestId',
                 element: <ContestDetails></ContestDetails>
             },
             {
                 path: '/contestList',
                 element: <ContestList></ContestList>
+            },
+            {
+                path: '/topContest',
+                element: <TopContest></TopContest>
             },
             {
                 path: '/allContest/:categories',
@@ -87,7 +96,23 @@ export const router = createBrowserRouter([
                 path: '/dashbord/allPayments',
                 element: <AdminRout><PaymentHistory></PaymentHistory></AdminRout>
             },
+            {
+                path: '/dashbord/allCreator',
+                element: <AdminRout><AllCreator></AllCreator></AdminRout>
+            },
 
+
+
+            // creators Rout
+
+            {
+                path: '/dashbord/addContest',
+                element: <CreatorRout><AddContest></AddContest></CreatorRout>
+            },
+            {
+                path: '/dashbord/myAddedContest',
+                element: <CreatorRout><MyAddedContest></MyAddedContest></CreatorRout>
+            },
             
 
 
@@ -100,9 +125,12 @@ export const router = createBrowserRouter([
                 element: <PrivateRoute><MyBookings></MyBookings></PrivateRoute>
             },
             {
-                path: '/dashbord/payment/:paymentAmount',
+                path: '/dashbord/payment/:_id',
                 element: <PrivateRoute><Payment></Payment></PrivateRoute>
             },
+            // {
+            //     path:
+            // },
             {
                 path: '/dashbord/myPayment',
                 element: <MyPaymenst></MyPaymenst>
