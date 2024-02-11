@@ -1,20 +1,13 @@
-import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure/useAxiosSecure";
 import { BiDetail } from "react-icons/bi";
 import { AiOutlineCheckCircle, AiOutlineCloseCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
+import useAllBookings from "../../../Hooks/useAllBookings/useAllBookings";
 
 const AllBookings = () => {
     const axiosSecure = useAxiosSecure();
-    const url = '/getAllBookings'
-    const {data: allBookings = [], refetch} = useQuery({
-        queryKey: ['allBookings'],
-        queryFn: async () => {
-            const res = await axiosSecure.get(url, {withCredentials: true})
-            return res.data;
-        }
-    })
+    const [ allBookings, refetch] = useAllBookings();
     console.log(allBookings);
 
     const handelAproved = ( booking ) => {

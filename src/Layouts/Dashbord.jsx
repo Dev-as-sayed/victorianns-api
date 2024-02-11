@@ -1,4 +1,4 @@
-import Outlet from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Sitebar from '../Pages/Dashbord/Sitebar/Sitebar';
 
 const Dashbord = () => {

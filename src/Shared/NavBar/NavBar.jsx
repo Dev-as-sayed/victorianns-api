@@ -21,6 +21,7 @@ const NavBar = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/contestList">Contest List</Link></li>
                     <li><Link to="/allContest/physics">All Contest</Link></li>
+                    <li><Link to="/addsRequest">Adds Request</Link></li>
                 </ul>
                 </div>
                 <Link className="btn btn-ghost normal-case text-xl" to="/">VICTORIANS</Link>
@@ -30,6 +31,7 @@ const NavBar = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/contestList">Contest List</Link></li>
                     <li><Link to="/allContest/physics">All Contest</Link></li>
+                    <li><Link to="/addsRequest">Add Adds</Link></li>
                 </ul>
             </div>
             <div className="navbar-end ">

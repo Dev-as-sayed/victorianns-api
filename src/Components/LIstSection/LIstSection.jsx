@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ContestCret from "../ContestCret/ContestCret";
+import AddPublisht from "../../Pages/Adds/AddPublisht/AddPublisht";
 
 const LIstSection = ({ contestItems, cetagory }) => {
     // console.log(cetagory);
@@ -13,6 +14,7 @@ const LIstSection = ({ contestItems, cetagory }) => {
                     ></ContestCret>)
                 }
             </div>
+            <AddPublisht></AddPublisht>
             <div className="w-fit mx-auto mt-12">
                 <Link to={`/allContest/${cetagory}`}>
                     <button className="btn btn-sm btn-primary btn-outline ">SEE ALL</button>

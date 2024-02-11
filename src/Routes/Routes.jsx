@@ -25,6 +25,10 @@ import AddContest from "../Pages/Dashbord/AddContest/AddContest";
 import MyAddedContest from "../Pages/Dashbord/MyAddedContest/MyAddedContest";
 import AllCreator from "../Pages/Dashbord/AllCreator/AllCreator";
 import TopContest from "../Pages/Home/TopContest/TopContest";
+import Analysis from "../Pages/Dashbord/Analysis/Analysis";
+import AddsRequset from "../Pages/Adds/AddsRequset/AddsRequset";
+import AddPublisht from "../Pages/Adds/AddPublisht/AddPublisht";
+import AllAdds from "../Pages/Dashbord/AllAdds/AllAdds";
 
 export const router = createBrowserRouter([
     {
@@ -62,6 +66,14 @@ export const router = createBrowserRouter([
             {
                 path: '/registar',
                 element: <Registar></Registar>
+            },
+            {
+                path: '/addsRequest',
+                element: <AddsRequset></AddsRequset>
+            },
+            {
+                path: '/addPublish',
+                element: <AddPublisht></AddPublisht>
             }
         ]
     },
@@ -99,6 +111,14 @@ export const router = createBrowserRouter([
             {
                 path: '/dashbord/allCreator',
                 element: <AdminRout><AllCreator></AllCreator></AdminRout>
+            },
+            {
+                path: '/dashbord/analysis',
+                element: <AdminRout><Analysis></Analysis></AdminRout>
+            },
+            {
+                path: '/dashbord/allAdds',
+                element: <AllAdds></AllAdds>
             },
 
 

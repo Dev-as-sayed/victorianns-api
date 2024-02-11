@@ -4,6 +4,8 @@ import useCreator from "../../../Hooks/useCreator/useCreator";
 import { LuUserSquare2 } from "react-icons/lu";
 import { BiBookAdd, BiBookAlt, BiHome, BiUser, BiWallet } from "react-icons/bi";
 import { BsFileEarmarkRichtext } from "react-icons/bs";
+import { FaChartPie } from "react-icons/fa6";
+import { MdAddShoppingCart } from "react-icons/md";
 
 const Sitebar = () => {
 
@@ -19,6 +21,8 @@ const Sitebar = () => {
                         <li className='h-10' ><NavLink className='inline-flex' to="/dashbord/allCreator"><BsFileEarmarkRichtext className='h-fit my-auto text-xl mr-2'></BsFileEarmarkRichtext> <span className=''>All Creators</span></NavLink></li>
                         <li className='h-10' ><NavLink className='inline-flex' to="/dashbord/allBookings"><BiBookAdd className='h-fit my-auto text-xl mr-2'></BiBookAdd> <span className=''>All Bookings</span></NavLink></li>
                         <li className='h-10' ><NavLink className='inline-flex' to="/dashbord/allPayments"><BiWallet className='h-fit my-auto text-xl mr-2'></BiWallet> <span className=''>All Payments</span></NavLink></li>
+                        <li className='h-10' ><NavLink className='inline-flex' to="/dashbord/allAdds"><MdAddShoppingCart className='h-fit my-auto text-xl mr-2'></MdAddShoppingCart> <span className=''>All Adds</span></NavLink></li>
+                        <li className='h-10' ><NavLink className='inline-flex' to="/dashbord/analysis"><FaChartPie className='h-fit my-auto text-xl mr-2'></FaChartPie> <span className=''>Analysis</span></NavLink></li>
                         {/* <li className='h-10' ><NavLink className='inline-flex' to="/"><BiListMinus className='h-fit my-auto text-xl mr-2'></BiListMinus> <span className=''>Contests</span></NavLink></li> */}
                     </>
                     :

@@ -1,20 +1,13 @@
-import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure/useAxiosSecure";
 import { BiSolidUserPlus, BiTrash } from "react-icons/bi";
 import { SiSpringCreators } from "react-icons/si";
 import Swal from "sweetalert2";
+import useGetAllUser from "../../../Hooks/useGetAllUser/useGetAllUser";
 
 const Users = () => {
     const axiosSecure = useAxiosSecure();
-    const url = '/getAllUsers';
 
-    const {data: users = [], refetch} = useQuery({
-        queryKey: ['users'],
-        queryFn: async () => {
-            const res = await axiosSecure.get(url, {withCredentials: true})
-            return res.data;
-        }
-    })
+    const [ users, refetch ] = useGetAllUser();
 
     const handelMakeAdmin = (user) => {
         Swal.fire({
@@ -43,11 +36,6 @@ const Users = () => {
     
     const handelMakeCreator = (user) => {
         console.log(user);
-        const creator = {
-            "name": user?.displayName,
-            "email": user?.email,
-            "image": user?.photoURL
-        }
         Swal.fire({
             title: "Are you sure?",
             text: "You won't to make admin..!",
